@@ -15,6 +15,6 @@ class User_m extends CI_Model{
 	}
 	function edit($d){}
 	function del($id){
-		$this->db->delete('users', ["id"=>$id]);
+		$this->db->delete('user', ["id"=>$id]);
 	}
 }
